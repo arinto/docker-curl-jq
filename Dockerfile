@@ -1,5 +1,5 @@
-FROM gcr.io/google_containers/ubuntu-slim:0.4
-MAINTAINER Shingo Omura <everpeace@gmail.com>
+FROM ubuntu:18.04
+MAINTAINER Arinto Murdopo <arinto@gmail.com>
 
 # Disable prompts from apt.
 ENV DEBIAN_FRONTEND noninteractive
